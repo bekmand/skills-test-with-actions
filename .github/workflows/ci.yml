@@ -31,7 +31,7 @@ jobs:
         with:
           name: remark-lint-report
           path: public/
-      
+   
       - uses: skills/action-update-step@v2
       - name: Update to step 5
         with:
