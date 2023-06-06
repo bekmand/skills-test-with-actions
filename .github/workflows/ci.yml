@@ -35,6 +35,6 @@ jobs:
       - uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 5
-          to_step: X
+          from_step: 4
+          to_step: 5
           branch_name: ci
